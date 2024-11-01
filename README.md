@@ -23,10 +23,17 @@ The `make` command will create the conda environment at `genslm.yaml`, clone the
 
 ## Running genslm
 
-First you must download one of the model files from the [Globus Endpoint](https://app.globus.org/file-manager?origin_id=25918ad0-2a4e-4f37-bcfc-8183b19c3150&origin_path=%2F).
+First you must download one of the model files from the
+[Globus Endpoint](https://app.globus.org/file-manager?origin_id=25918ad0-2a4e-4f37-bcfc-8183b19c3150&origin_path=%2F).
 
 Make sure the file is in the `genslm_fix` directory or that you point the code
 to the correct path.
+
+Active the conda environment.
+
+```bash
+conda activate genslm
+```
 
 To test that genslm is working run the following code from the genslm repo:
 
